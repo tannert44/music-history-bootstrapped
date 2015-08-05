@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Music History 5.1</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+ </head>
+ <body>
+   <header>
+     <nav class="navbar navbar-default">
+       <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-fire"></span>Juic<span class="glyphicon glyphicon-yen"></span> <span class="glyphicon glyphicon-xbt"></span>eatS<span class="glyphicon glyphicon-fire"></span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Add Music</a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+       </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+   </header> 
+   <div class="row row-eq-height">
+     <div class="match-height form-content col-xs-12 col-md-3">
+       <label class="col-xs-12">
+         <p>Song Length:</p>
+         <input type="range">
+       </label>
+       <label class="col-xs-12">
+         <p>Artist:</p>
+         <select class="form-control col-xs-12">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+         </select>
+       </label>
+       <label class="col-xs-12">
+         <p>Album:</p>
+         <select class="form-control col-xs-12">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+         </select>
+       </label>
+       <label class="col-xs-12">
+         <p>Genre:</p>
+         <div class="table-responsive col-xs-12">
+           <table class="table">
+             <tr>
+               <td><input type="checkbox" value="rock">Rock</td>
+               <td><input type="checkbox" value="classical">Classical</td>
+             </tr>
+             <tr>
+               <td><input type="checkbox" value="pop">Pop</td>
+               <td><input type="checkbox" value="jazz">Jazz</td>
+             </tr>
+             <tr>
+               <td><input type="checkbox" value="blues">Blues</td>
+               <td><input type="checkbox" value="hiphop">Hip Hop</td>
+             </tr>
+           </table>
+         </div>
+       </label>
+       <label class="col-xs-12">
+         <button type="button" class="btn btn-default btn-sm col-xs-12">Filter</button>
+       </label>
+     </div>
+     <div class="match-height song-info-content col-xs-12 col-md-9"> 
+   </div>
+    
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/matchHeight/jquery.matchHeight-min.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script data-main="javascripts/main" src="bower_components/requirejs/require.js"></script> 
+ </body>
+</html>

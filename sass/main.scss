@@ -1,0 +1,58 @@
+$navColor: #333;
+$activeNav: lime;
+$formColor: #808A7D;
+$songContent: #333;
+$fontColor: #fff;
+
+.navbar-default {
+  background-color: $navColor;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: $activeNav;
+  color: $fontColor;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: $fontColor;
+}
+
+.form-content {
+  border: 4px solid black;
+  background-color: $formColor;
+}
+
+@import 'slide';
+
+.song-info-content {
+  border: 4px solid black;
+  background-color: $navColor;
+}
+
+.song-title {
+  color: #fff;
+}
+
+#more_button {
+  float: right;
+  margin-top: 125px;
+}
+
+.new-item {
+    opacity: 0;
+    animation: new-item-animation .3s linear forwards;
+}
+ 
+@keyframes new-item-animation {
+    from {
+        opacity: 0;
+        transform: translateY(-400px);
+}
+ 
+    to {
+        opacity: 1;
+        transform : translateY(0);
+    }
+}

@@ -1,0 +1,20 @@
+{
+   "songs": [
+    {
+      "name": "Do I Wanna Know",
+      "artist": "Artic Monkeys",
+      "album": "AM"
+    },
+
+    {
+      "name": "Mona Lisa",
+      "artist": "Panic at the Disco",
+      "album": "Vices and Virtues"
+    },
+    {
+      "name": "Ballad of the Movers",
+      "artist": "The Vegabonds",
+      "album": "ReverbNation"
+    }
+     ]
+}
