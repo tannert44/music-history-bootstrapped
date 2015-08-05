@@ -6,7 +6,7 @@ define(function () {
               url: "javascripts/music-info.json"
             }
         ).done(function(data){
-         callback.call(this, data.songs);
+         callback.call(this, data);
         });
    }
   };
