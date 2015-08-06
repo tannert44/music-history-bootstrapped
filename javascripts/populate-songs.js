@@ -3,9 +3,10 @@ define(function () {
     getSongs: function(callback){
         $.ajax(
             {
-              url: "javascripts/music-info.json"
+              url: "https://blazing-torch-6909.firebaseio.com/.json"
             }
         ).done(function(data){
+//          console.log(data);
          callback.call(this, data);
         });
    }
